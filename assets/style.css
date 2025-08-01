@@ -71,7 +71,8 @@ body {
 
 .picture img {
 	width: 100%;
-
+	max-width: 419px;
+	max-height: 418px;
 }
 
 #about-me {
@@ -140,6 +141,8 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	max-width: 440px;
+	max-height: 440px;
 }
 
 .mg-prev,
