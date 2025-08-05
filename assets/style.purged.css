@@ -64,7 +64,7 @@ body {
 }
 
 .picture {
-	flex: 1;
+	/* flex: 1; */
 	margin: 0 20px;
 	z-index: 0;
 }
@@ -296,7 +296,7 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about {
 		flex-direction: column;
-
+		
 	}
 
 	.picture {
@@ -320,10 +320,11 @@ input[type="submit"] {
 
 	#services .container {
 		flex-direction: column;
+		align-items: center;
 	}
 
 	.service {
-		width: 100%;
+		width: 95%;
 		max-width: 100%;
 		height: auto;
 		margin: 2em 0
@@ -404,4 +405,12 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+}
+
+@media (max-width: 575px) {
+	.gallery-item {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
 }
