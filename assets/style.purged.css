@@ -272,6 +272,29 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+/* .contact-info__item {
+	z-index: 1;
+	display: flex;
+	background-color: #5E5926;
+	flex-direction: column;
+	width: 100%;
+	gap: 0px;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	border: black 1px solid;
+}
+
+.Contact-info {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	height: 150px;
+	margin-top: 50px;
+} */
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
@@ -296,7 +319,7 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about {
 		flex-direction: column;
-		
+
 	}
 
 	.picture {
@@ -358,6 +381,11 @@ input[type="submit"] {
 		bottom: 0;
 		right: 0;
 		z-index: -1;
+	}
+
+	.Contact-info {
+		display: flex;
+		flex-direction: column;
 	}
 }
 
