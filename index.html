@@ -2,6 +2,10 @@
 <html lang="fr">
 
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -45,16 +49,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.purged.css">
 	<link rel="stylesheet" href="./assets/style.purged.css">
-	<link rel="stylesheet" href="./assets/carrousel.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" as="font" href="https://fonts.gstatic.com/s/XXX.woff2" type="font/woff2" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
 	<title>Nina Carducci - Photographe professionnelle</title>
@@ -62,20 +62,21 @@
 
 <body>
 	<header>
-	<div class="top-header">
-		<h1 class="name">Nina Carducci</h1>
-		<div class="nav">
-			<ul>
-				<li><a href="#about">À propos</a></li>
-				<li><a href="#gallery">Galerie</a></li>
-				<li><a href="#services">Service</a></li>
-				<li><a href="#contact">Contact</a></li>
-				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.png" alt="Photo de Nina Carducci"></a></li>
-			</ul>
+		<div class="top-header">
+			<h1 class="name">Nina Carducci</h1>
+			<div class="nav">
+				<ul>
+					<li><a href="#about">À propos</a></li>
+					<li><a href="#gallery">Galerie</a></li>
+					<li><a href="#services">Service</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+							target="_blank"><img src="assets/images/instagram.png" alt="Photo de Nina Carducci"></a>
+					</li>
+				</ul>
+			</div>
 		</div>
-	</div>
-</header>
+	</header>
 	<div id="header">
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -100,7 +101,7 @@
 						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp"
 							type="image/webp">
 						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100"
-							 alt="Photo d'un homme en costume" loading="lazy">
+							alt="Photo d'un homme en costume" loading="lazy">
 					</picture>
 				</div>
 				<div class="carousel-item">
