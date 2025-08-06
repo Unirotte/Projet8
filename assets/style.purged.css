@@ -64,15 +64,15 @@ body {
 }
 
 .picture {
-	/* flex: 1; */
+	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
 }
 
 .picture img {
 	width: 100%;
-	max-width: 419px;
-	max-height: 418px;
+	max-width: 555px;
+	max-height: 553px;
 }
 
 #about-me {
@@ -272,10 +272,13 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
-/* .contact-info__item {
+footer {
+	background-color: #5E5926;
+}
+
+.contact-info__item {
 	z-index: 1;
 	display: flex;
-	background-color: #5E5926;
 	flex-direction: column;
 	width: 100%;
 	gap: 0px;
@@ -284,16 +287,26 @@ input[type="submit"] {
 	color: white;
 	padding: 15px;
 	text-align: center;
-	border: black 1px solid;
+	position: relative;
 }
+
+.contact-info__item::before {
+	position: absolute;
+	content: '';
+	background-color: black;
+	height: 50%;
+	width: 1px;
+	left: 1px;
+}
+
+
 
 .Contact-info {
 	display: flex;
 	flex-direction: row;
 	gap: 50px;
 	height: 150px;
-	margin-top: 50px;
-} */
+}
 
 @media all and (max-width: 1180px) {
 	.picture {
@@ -386,7 +399,20 @@ input[type="submit"] {
 	.Contact-info {
 		display: flex;
 		flex-direction: column;
+		gap: 0px;
+		height: 100%;
 	}
+
+	.contact-info__item::before {
+		position: absolute;
+		content: '';
+		background-color: black;
+		height: 1px;
+		width: 50%;
+		left: 25%;
+		bottom: 1px;
+	}
+
 }
 
 @media all and (max-width: 650px) {
