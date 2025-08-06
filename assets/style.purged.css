@@ -72,11 +72,14 @@ body {
 .picture img {
 	width: 100%;
 	max-width: 555px;
-	max-height: 553px;
+	aspect-ratio: 555 / 553;
+	object-fit: cover;
+	display: block;
 }
 
 #about-me {
-	flex: 2
+	flex: 2;
+	min-height: 355px;
 }
 
 .about-me__title {
