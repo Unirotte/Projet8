@@ -51,8 +51,8 @@ body {
 	padding-block: 100px;
 	position: relative;
 	max-width: 1920px;
-	/* max-height: 753px; */
-	width: 100%;
+	max-height: 753px;
+	width: 99vw;
 	height: 100%;
 }
 
