@@ -78,6 +78,8 @@ body {
 	aspect-ratio: 555 / 553;
 	object-fit: cover;
 	display: block;
+	min-height: 245px;
+    min-width: 246px;
 }
 
 #about-me {
